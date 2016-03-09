@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <title>Upload anything (into S3)</title>
   <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
@@ -13,16 +13,16 @@
   <section class="block">
     <h3>Destination</h3>
     <p>
-      <label>S3 Bucket:</label>
-      <input type="text" class="param bucket" placeholder="bucket" />
-      <label>Key:</label>
-      <input type="text" class="param access-key" placeholder="key" />
-      <label>Secret key:</label>
-      <input type="text" class="param secret-key" placeholder="secret-key" />
+      <label for="s3-bucket">S3 Bucket:</label>
+      <input type="text" class="param bucket" placeholder="bucket" id="s3-bucket"/>
+      <label for="key">Key:</label>
+      <input type="text" class="param access-key" placeholder="key" id="key" />
+      <label for="secret-key">Secret key:</label>
+      <input type="text" class="param secret-key" placeholder="secret-key" id="secret-key" />
     </p>
     <p>
       <a class="linkify s3 test">Test your S3 details.</a>
-      <span class="s3-test loading"><blink>Testing...</blink></span>
+      <span class="s3-test loading">Testing...</span>
       <span class="s3-test success">Test succeeded! Drop a file any time.</span>
       <span class="s3-test error cors">Test failed! Wrong bucket name, or you need to configure CORS (see below).</span>
       <span class="s3-test error credentials">Test failed! Wrong key or secret key.</span>
