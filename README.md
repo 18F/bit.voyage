@@ -10,7 +10,7 @@
 
 **Implementation:**
 
-* Use the [Drag and Drop API](http://blog.teamtreehouse.com/implementing-native-drag-and-drop), available [in modern desktop browsers](http://caniuase.com/#feat=dragndrop), to let anyone drag a file into their browser
+* Use the [Drag and Drop API](http://blog.teamtreehouse.com/implementing-native-drag-and-drop), available [in modern desktop browsers](http://caniuse.com/#feat=dragndrop), to let anyone drag a file into their browser
 * Use the [File API](https://docs.webplatform.org/wiki/apis/file), available [in modern browsers](http://caniuse.com/#feat=fileapi), to chunk and stream file objects in-browser
 * Use the [FileReader object](https://developer.mozilla.org/en-US/docs/Web/API/FileReader), available [in modern browsers](http://caniuse.com/#feat=filereader), to read the contents of chunks into memory
 
